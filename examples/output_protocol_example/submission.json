@@ -1,0 +1,11 @@
+{
+  "counterexample": {
+    "description": "Optional diagnostic fields are accepted but not required.",
+    "type": "participant_defined"
+  },
+  "decision": "NON_EQUIVALENT",
+  "evidence": {
+    "method": "example-only"
+  },
+  "instance_id": "simple_non_equivalent"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_id": "official_validation_v1",
+  "instances": [
+    "val_00000",
+    "val_00001",
+    "val_00002",
+    "val_00003",
+    "val_00004",
+    "val_00005",
+    "val_00006",
+    "val_00007",
+    "val_00008",
+    "val_00009",
+    "val_00010",
+    "val_00011"
+  ],
+  "label": "PUBLIC VALIDATION SET",
+  "labels_included": false
+}

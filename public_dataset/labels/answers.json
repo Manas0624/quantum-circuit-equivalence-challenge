@@ -1,0 +1,10 @@
+{
+  "answers": [
+    {"decision": "EQUIVALENT", "instance_id": "dev_exact_equiv_001"},
+    {"decision": "NON_EQUIVALENT", "instance_id": "dev_exact_nonequiv_001"},
+    {"decision": "EQUIVALENT", "instance_id": "dev_global_equiv_001"},
+    {"decision": "NON_EQUIVALENT", "instance_id": "dev_global_nonequiv_001"},
+    {"decision": "EQUIVALENT", "instance_id": "dev_structural_001"},
+    {"decision": "NON_EQUIVALENT", "instance_id": "dev_two_qubit_001"}
+  ]
+}

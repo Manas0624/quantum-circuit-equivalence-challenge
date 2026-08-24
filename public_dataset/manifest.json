@@ -1,0 +1,13 @@
+{
+  "dataset_id": "official_public_v1",
+  "instances": [
+    "dev_exact_equiv_001",
+    "dev_exact_nonequiv_001",
+    "dev_global_equiv_001",
+    "dev_global_nonequiv_001",
+    "dev_structural_001",
+    "dev_two_qubit_001"
+  ],
+  "label": "PUBLIC DEVELOPMENT SET",
+  "public_answer_key": "labels/answers.json"
+}

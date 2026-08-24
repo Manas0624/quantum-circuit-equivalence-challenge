@@ -1,0 +1,26 @@
+{
+  "allowed_operations": [
+    "cx",
+    "cz",
+    "h",
+    "i",
+    "rx",
+    "ry",
+    "rz",
+    "s",
+    "sdg",
+    "swap",
+    "t",
+    "tdg",
+    "x",
+    "y",
+    "z"
+  ],
+  "circuit_a": "circuit_a.qasm",
+  "circuit_b": "circuit_b.qasm",
+  "instance_id": "val_00009",
+  "parameter_schema": {},
+  "qubit_count": 2,
+  "resource_limits": {},
+  "semantic_mode": "global_phase_unitary"
+}
