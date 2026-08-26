@@ -21,6 +21,8 @@ Your program must print one JSON object with:
 - `instance_id`: copied from `instance.json`
 - `decision`: `EQUIVALENT` or `NON_EQUIVALENT`
 
+The same output schema is used for public, validation, and official-style instances. `evidence` and `counterexample` may be included as optional JSON objects for diagnostics, but they do not change scoring.
+
 ## Equivalence Semantics
 
 - `exact_unitary`: equivalent only when Circuit A and Circuit B induce the same unitary matrix.
@@ -45,3 +47,5 @@ Participants may build simulators, canonicalizers, symbolic tools, randomized/st
 ## Valid Submission
 
 A valid submission follows the command and JSON protocol in `SUBMISSION_GUIDE.md`, uses only permitted resources during evaluation, and does not attempt to access hidden data or tamper with benchmarks.
+
+Validation data does not require a different submission format. Public development labels are included for local scoring; validation labels are not included publicly.

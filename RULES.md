@@ -37,3 +37,7 @@ Collaboration and plagiarism policy requires published challenge/legal approval 
 ## Evaluation Procedure
 
 Submissions are run on instance directories and must emit the JSON protocol described in `SUBMISSION_GUIDE.md`. Accuracy is primary; runtime and memory are secondary after correctness.
+
+The public development dataset includes labels for local scoring. The public validation dataset does not include labels and uses the same participant submission format; local validation checks protocol behavior without revealing correctness. Hidden or organizer-side evaluation may score against private labels that are not distributed in this repository.
+
+Timeouts, crashes, malformed output, and invalid decisions are execution or protocol failures. They are not silently mapped to either semantic decision.

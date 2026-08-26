@@ -71,6 +71,26 @@ Optional fields:
 - `evidence`: object
 - `counterexample`: object
 
+The evaluator expects one JSON object per instance run. Batch arrays and multiple JSON objects on stdout are not part of the participant protocol. The `instance_id` must match the `instance_id` in the instance directory being evaluated. Missing or mismatched `instance_id`, missing or unsupported `decision`, malformed JSON, non-object JSON, or non-object optional diagnostic fields are invalid output.
+
+Duplicate JSON object keys are not a supported protocol feature. The local evaluator uses standard JSON parsing and validates the parsed object; participants should emit each required field exactly once.
+
+## Public And Validation Evaluation
+
+`public_dataset` includes a public answer key and can be scored locally by `evaluator/evaluate.py`.
+
+`validation_dataset` intentionally does not include a public answer key. Participants use the same stdout JSON schema, and the local evaluator checks execution and output validity without calculating semantic accuracy or exposing hidden truth. Official or organizer-side validation may use private labels outside this public package.
+
+## Evaluator Status Values
+
+For datasets with labels, valid outputs are reported as `CORRECT` or `INCORRECT`. For unlabeled validation data, valid outputs are reported as `VALID_UNSCORED`.
+
+Malformed JSON, non-object JSON, wrong or missing `instance_id`, missing or unsupported `decision`, and invalid optional diagnostic fields are reported as `INVALID_OUTPUT`. If `run.py` exceeds the evaluator timeout, the instance is reported as `TIMEOUT`. If `run.py` exits with a nonzero status, the instance is reported as `CRASH`.
+
+Timeouts and crashes are execution failures, not semantic decisions.
+
+Datasets are expected to contain every instance listed in `manifest.json`. If a dataset package is missing an instance directory or `instance.json`, that is a dataset/package integrity error rather than a participant decision.
+
 ## Resource Rules
 
 Official-style evaluation is expected to run without network access. Time and memory limits may be enforced by the official evaluation environment. See `RULES.md` and `SUBMISSION_GUIDE.md`.

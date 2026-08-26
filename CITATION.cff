@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this challenge or its datasets in research, please cite this repository."
+title: "Quantum Circuit Equivalence Challenge"
+type: software
+authors:
+  - name: "Quark Quantum"
+url: "https://github.com/Quark-Quantum/quantum-circuit-equivalence-challenge"
+version: "quantum-circuit-equivalence-detective-v1"
+abstract: "A public challenge package for black-box verification of quantum circuit equivalence."
