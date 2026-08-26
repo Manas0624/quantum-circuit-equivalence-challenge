@@ -3,7 +3,9 @@ message: "If you use this challenge or its datasets in research, please cite thi
 title: "Quantum Circuit Equivalence Challenge"
 type: software
 authors:
-  - name: "Quark Quantum"
+  - family-names: "Ubale"
+    given-names: "Rushikesh"
+    affiliation: "Qkrishi Quantum"
 url: "https://github.com/Quark-Quantum/quantum-circuit-equivalence-challenge"
-version: "quantum-circuit-equivalence-detective-v1"
+version: "1.0.0"
 abstract: "A public challenge package for black-box verification of quantum circuit equivalence."
