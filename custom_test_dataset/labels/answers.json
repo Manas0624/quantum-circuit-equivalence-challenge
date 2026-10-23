@@ -1,0 +1,164 @@
+{
+  "answers": [
+    {
+      "instance_id": "test_xx_cancel_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_zz_cancel_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_hh_cancel_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_s_sdg_cancel_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_t_tdg_cancel_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_ss_equals_z_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_tt_equals_s_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_rx_pi_vs_x_exact_nonequiv",
+      "decision": "NON_EQUIVALENT"
+    },
+    {
+      "instance_id": "test_rx_pi_vs_x_globalphase_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_rz_pi_vs_z_exact_nonequiv",
+      "decision": "NON_EQUIVALENT"
+    },
+    {
+      "instance_id": "test_rz_pi_vs_z_globalphase_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_rx_2pi_vs_identity_exact_nonequiv",
+      "decision": "NON_EQUIVALENT"
+    },
+    {
+      "instance_id": "test_rx_2pi_vs_identity_globalphase_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_rz_pi2_vs_s_exact_nonequiv",
+      "decision": "NON_EQUIVALENT"
+    },
+    {
+      "instance_id": "test_rz_pi2_vs_s_globalphase_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_cx_cx_cancel_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_swap_3cnot_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_cz_symmetric_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_cz_hcxh_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_cx_reversed_nonequiv",
+      "decision": "NON_EQUIVALENT"
+    },
+    {
+      "instance_id": "test_swap_swap_cancel_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_h_wrong_qubit_nonequiv",
+      "decision": "NON_EQUIVALENT"
+    },
+    {
+      "instance_id": "test_nearmiss_rotation_nonequiv",
+      "decision": "NON_EQUIVALENT"
+    },
+    {
+      "instance_id": "test_3q_cancel_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_3q_different_nonequiv",
+      "decision": "NON_EQUIVALENT"
+    },
+    {
+      "instance_id": "test_hzh_equals_x_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_hxh_equals_z_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_y_vs_xz_exact_nonequiv",
+      "decision": "NON_EQUIVALENT"
+    },
+    {
+      "instance_id": "test_y_vs_xz_globalphase_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_yy_cancel_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_empty_circuits_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_empty_vs_identity_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_empty_vs_x_nonequiv",
+      "decision": "NON_EQUIVALENT"
+    },
+    {
+      "instance_id": "test_xzxz_vs_i_exact_nonequiv",
+      "decision": "NON_EQUIVALENT"
+    },
+    {
+      "instance_id": "test_xzxz_vs_i_globalphase_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_ry_pi_vs_y_exact_nonequiv",
+      "decision": "NON_EQUIVALENT"
+    },
+    {
+      "instance_id": "test_ry_pi_vs_y_globalphase_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_separate_qubits_commute_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "test_same_qubit_no_commute_nonequiv",
+      "decision": "NON_EQUIVALENT"
+    },
+    {
+      "instance_id": "test_rz_compose_equiv",
+      "decision": "EQUIVALENT"
+    }
+  ]
+}

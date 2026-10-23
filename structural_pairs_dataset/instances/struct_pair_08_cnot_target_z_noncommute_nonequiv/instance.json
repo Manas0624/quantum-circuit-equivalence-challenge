@@ -1,0 +1,29 @@
+{
+  "allowed_operations": [
+    "h",
+    "x",
+    "y",
+    "z",
+    "i",
+    "s",
+    "sdg",
+    "t",
+    "tdg",
+    "rx",
+    "ry",
+    "rz",
+    "cx",
+    "cz",
+    "swap"
+  ],
+  "circuit_a": "circuit_a.qasm",
+  "circuit_b": "circuit_b.qasm",
+  "instance_id": "struct_pair_08_cnot_target_z_noncommute_nonequiv",
+  "parameter_schema": {},
+  "qubit_count": 2,
+  "resource_limits": {
+    "tier": "structural_pair_test"
+  },
+  "semantic_mode": "exact_unitary",
+  "description": "Structurally similar bug: Z does NOT commute with the target qubit of CNOT"
+}

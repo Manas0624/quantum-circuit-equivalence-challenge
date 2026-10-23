@@ -1,0 +1,269 @@
+{
+  "total": 26,
+  "passed": 26,
+  "failed": 0,
+  "accuracy": 1.0,
+  "elapsed_seconds": 26.159,
+  "tests": [
+    {
+      "id": "ext_sx_square_is_x",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 1611.21,
+      "description": "sx \u00b7 sx = x (two sqrt-X gates produce X)",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_sx_sxdg_cancel",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 1683.2,
+      "description": "sx \u00b7 sxdg = I (sqrt-X and its adjoint cancel)",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_sx_vs_x_nonequiv",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 1629.1,
+      "description": "sx != x (sqrt-X is not X)",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_p_pi_is_z",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 2015.29,
+      "description": "p(pi) = z (phase gate at pi is Z)",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_p_half_pi_is_s",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 1617.96,
+      "description": "p(pi/2) = s (phase gate at pi/2 is S)",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_p_quarter_pi_is_t",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 593.14,
+      "description": "p(pi/4) = t (phase gate at pi/4 is T)",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_u1_is_p",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 555.58,
+      "description": "u1(lambda) = p(lambda)",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_p_diff_angles_nonequiv",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 436.11,
+      "description": "p(pi/3) != p(pi/4)",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_u3_hadamard",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 1167.6,
+      "description": "u3(pi/2, 0, pi) = H (Hadamard via U3)",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_u3_pauli_x",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 530.21,
+      "description": "u3(pi, 0, pi) = X (Pauli-X via U3)",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_u2_hadamard",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 507.67,
+      "description": "u2(0, pi) = H (Hadamard via U2)",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_u3_mismatched_params",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 1074.14,
+      "description": "u3 with different lambda parameters is non-equivalent",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_cy_involution",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 1015.59,
+      "description": "cy \u00b7 cy = I (Controlled-Y is self-inverse)",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_ch_involution",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 693.69,
+      "description": "ch \u00b7 ch = I (Controlled-H is self-inverse)",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_cy_from_cx_s",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 1199.22,
+      "description": "sdg(1) cx(0,1) s(1) = cy(0,1) exact equivalence",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_cp_pi_is_cz",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 1253.7,
+      "description": "cp(pi) = cz (Controlled Phase at pi is CZ)",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_ch_vs_cx_nonequiv",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 491.91,
+      "description": "ch != cx (Controlled-H is not CNOT)",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_crz_4pi_identity",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 1126.51,
+      "description": "crz(4*pi) = I",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_crx_cancel",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 824.47,
+      "description": "crx(theta) \u00b7 crx(-theta) = I",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_ccx_involution",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 966.23,
+      "description": "ccx \u00b7 ccx = I (Toffoli gate is self-inverse)",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_cswap_involution",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 877.9,
+      "description": "cswap \u00b7 cswap = I (Fredkin gate is self-inverse)",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_toffoli_clifford_t_equiv",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 598.39,
+      "description": "Canonical 15-gate Clifford+T decomposition of Toffoli == direct ccx",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_toffoli_corrupted_nonequiv",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 704.38,
+      "description": "Corrupted Toffoli decomposition != direct ccx",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_fredkin_cnot_toffoli_equiv",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 1034.38,
+      "description": "Fredkin (CSWAP) decomposed into CNOT + Toffoli + CNOT",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_rz_pi_vs_z_exact",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 701.6,
+      "description": "rz(pi) has -i global phase relative to z (exact mode: NON_EQUIVALENT)",
+      "method": "N/A"
+    },
+    {
+      "id": "ext_rz_pi_vs_z_phase",
+      "mode": "global_phase_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 1247.01,
+      "description": "rz(pi) has -i global phase relative to z (phase mode: EQUIVALENT)",
+      "method": "N/A"
+    }
+  ]
+}

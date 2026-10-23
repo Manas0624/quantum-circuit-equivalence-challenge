@@ -1,0 +1,52 @@
+{
+  "answers": [
+    {
+      "instance_id": "novel_cnot_direction_reversal_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "novel_swap_cnot_symmetry_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "novel_bell_state_unitary_mismatch_nonequiv",
+      "decision": "NON_EQUIVALENT"
+    },
+    {
+      "instance_id": "novel_ghz_unitary_mismatch_nonequiv",
+      "decision": "NON_EQUIVALENT"
+    },
+    {
+      "instance_id": "novel_ccz_h_toffoli_h_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "novel_half_adder_ordering_bug_nonequiv",
+      "decision": "NON_EQUIVALENT"
+    },
+    {
+      "instance_id": "novel_teleportation_alice_order_nonequiv",
+      "decision": "NON_EQUIVALENT"
+    },
+    {
+      "instance_id": "novel_grover_diffusion_cz_decomp_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "novel_pauli_xz_vs_zx_exact_nonequiv",
+      "decision": "NON_EQUIVALENT"
+    },
+    {
+      "instance_id": "novel_pauli_xz_vs_zx_phase_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "novel_swap_from_three_cnot_equiv",
+      "decision": "EQUIVALENT"
+    },
+    {
+      "instance_id": "novel_swap_two_cnot_bug_nonequiv",
+      "decision": "NON_EQUIVALENT"
+    }
+  ]
+}

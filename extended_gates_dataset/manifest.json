@@ -1,0 +1,32 @@
+{
+  "dataset_id": "extended_gates_v1",
+  "public_answer_key": "answers.json",
+  "instances": [
+    "ext_sx_square_is_x",
+    "ext_sx_sxdg_cancel",
+    "ext_sx_vs_x_nonequiv",
+    "ext_p_pi_is_z",
+    "ext_p_half_pi_is_s",
+    "ext_p_quarter_pi_is_t",
+    "ext_u1_is_p",
+    "ext_p_diff_angles_nonequiv",
+    "ext_u3_hadamard",
+    "ext_u3_pauli_x",
+    "ext_u2_hadamard",
+    "ext_u3_mismatched_params",
+    "ext_cy_involution",
+    "ext_ch_involution",
+    "ext_cy_from_cx_s",
+    "ext_cp_pi_is_cz",
+    "ext_ch_vs_cx_nonequiv",
+    "ext_crz_4pi_identity",
+    "ext_crx_cancel",
+    "ext_ccx_involution",
+    "ext_cswap_involution",
+    "ext_toffoli_clifford_t_equiv",
+    "ext_toffoli_corrupted_nonequiv",
+    "ext_fredkin_cnot_toffoli_equiv",
+    "ext_rz_pi_vs_z_exact",
+    "ext_rz_pi_vs_z_phase"
+  ]
+}

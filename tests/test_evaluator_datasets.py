@@ -7,9 +7,15 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "evaluator"))
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+if str(ROOT / "evaluator") not in sys.path:
+    sys.path.insert(0, str(ROOT / "evaluator"))
 
-from evaluate import evaluate, parse_stdout  # noqa: E402
+try:
+    from evaluator.evaluate import evaluate, parse_stdout  # noqa: E402
+except ImportError:
+    from evaluate import evaluate, parse_stdout  # type: ignore # noqa: E402
 
 
 class EvaluatorDatasetTests(unittest.TestCase):

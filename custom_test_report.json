@@ -1,0 +1,375 @@
+{
+  "dataset": "custom_test_v1",
+  "instances": [
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_xx_cancel_equiv",
+      "runtime_seconds": 0.34426929999608546,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_zz_cancel_equiv",
+      "runtime_seconds": 0.4020763000007719,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_hh_cancel_equiv",
+      "runtime_seconds": 0.3879937999881804,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_s_sdg_cancel_equiv",
+      "runtime_seconds": 0.40656079998007044,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_t_tdg_cancel_equiv",
+      "runtime_seconds": 0.3720754000241868,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_ss_equals_z_equiv",
+      "runtime_seconds": 0.3981078999931924,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_tt_equals_s_equiv",
+      "runtime_seconds": 0.4291762000066228,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_rx_pi_vs_x_exact_nonequiv",
+      "runtime_seconds": 0.6321602000389248,
+      "status": "CORRECT",
+      "truth": "NON_EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_rx_pi_vs_x_globalphase_equiv",
+      "runtime_seconds": 0.37945040001068264,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_rz_pi_vs_z_exact_nonequiv",
+      "runtime_seconds": 0.32287400000495836,
+      "status": "CORRECT",
+      "truth": "NON_EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_rz_pi_vs_z_globalphase_equiv",
+      "runtime_seconds": 0.3210223000496626,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_rx_2pi_vs_identity_exact_nonequiv",
+      "runtime_seconds": 0.3636267999536358,
+      "status": "CORRECT",
+      "truth": "NON_EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_rx_2pi_vs_identity_globalphase_equiv",
+      "runtime_seconds": 0.5412248999928124,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_rz_pi2_vs_s_exact_nonequiv",
+      "runtime_seconds": 0.41058179998071864,
+      "status": "CORRECT",
+      "truth": "NON_EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_rz_pi2_vs_s_globalphase_equiv",
+      "runtime_seconds": 0.41009649995248765,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_cx_cx_cancel_equiv",
+      "runtime_seconds": 0.41841899999417365,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_swap_3cnot_equiv",
+      "runtime_seconds": 0.47787349997088313,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_cz_symmetric_equiv",
+      "runtime_seconds": 0.3481797999702394,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_cz_hcxh_equiv",
+      "runtime_seconds": 0.3333577999728732,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_cx_reversed_nonequiv",
+      "runtime_seconds": 0.32617959997151047,
+      "status": "CORRECT",
+      "truth": "NON_EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_swap_swap_cancel_equiv",
+      "runtime_seconds": 0.42511980002745986,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_h_wrong_qubit_nonequiv",
+      "runtime_seconds": 0.4472611999954097,
+      "status": "CORRECT",
+      "truth": "NON_EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_nearmiss_rotation_nonequiv",
+      "runtime_seconds": 0.4612222000141628,
+      "status": "CORRECT",
+      "truth": "NON_EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_3q_cancel_equiv",
+      "runtime_seconds": 0.7956691000144929,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_3q_different_nonequiv",
+      "runtime_seconds": 0.40939240000443533,
+      "status": "CORRECT",
+      "truth": "NON_EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_hzh_equals_x_equiv",
+      "runtime_seconds": 0.3678195999818854,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_hxh_equals_z_equiv",
+      "runtime_seconds": 0.35716859996318817,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_y_vs_xz_exact_nonequiv",
+      "runtime_seconds": 0.5226745000109076,
+      "status": "CORRECT",
+      "truth": "NON_EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_y_vs_xz_globalphase_equiv",
+      "runtime_seconds": 0.3864881999907084,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_yy_cancel_equiv",
+      "runtime_seconds": 0.39256040001055226,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_empty_circuits_equiv",
+      "runtime_seconds": 0.55184690002352,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_empty_vs_identity_equiv",
+      "runtime_seconds": 0.5563762999954633,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_empty_vs_x_nonequiv",
+      "runtime_seconds": 0.38039070001104847,
+      "status": "CORRECT",
+      "truth": "NON_EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_xzxz_vs_i_exact_nonequiv",
+      "runtime_seconds": 0.3666973999934271,
+      "status": "CORRECT",
+      "truth": "NON_EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_xzxz_vs_i_globalphase_equiv",
+      "runtime_seconds": 0.4239757999894209,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_ry_pi_vs_y_exact_nonequiv",
+      "runtime_seconds": 0.39461720001418144,
+      "status": "CORRECT",
+      "truth": "NON_EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_ry_pi_vs_y_globalphase_equiv",
+      "runtime_seconds": 0.3065018000197597,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_separate_qubits_commute_equiv",
+      "runtime_seconds": 0.38623940001707524,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_same_qubit_no_commute_nonequiv",
+      "runtime_seconds": 0.456423600029666,
+      "status": "CORRECT",
+      "truth": "NON_EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "test_rz_compose_equiv",
+      "runtime_seconds": 0.4741344000212848,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    }
+  ],
+  "report_type": "public_development",
+  "summary": {
+    "accuracy": 1.0,
+    "correct": 40,
+    "instance_count": 40,
+    "invalid_outputs": 0,
+    "scoring_available": true,
+    "total_runtime_seconds": 16.887885799980722,
+    "valid_outputs": 40
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "allowed_operations": [
+    "h",
+    "x",
+    "z",
+    "cx",
+    "rx",
+    "ry",
+    "rz",
+    "s",
+    "sdg",
+    "t",
+    "tdg",
+    "i",
+    "y",
+    "cz",
+    "swap"
+  ],
+  "circuit_a": "circuit_a.qasm",
+  "circuit_b": "circuit_b.qasm",
+  "instance_id": "test_swap_swap_cancel_equiv",
+  "parameter_schema": {},
+  "qubit_count": 2,
+  "resource_limits": {
+    "tier": "custom_test"
+  },
+  "semantic_mode": "exact_unitary"
+}

@@ -1,0 +1,29 @@
+{
+  "allowed_operations": [
+    "h",
+    "x",
+    "y",
+    "z",
+    "i",
+    "s",
+    "sdg",
+    "t",
+    "tdg",
+    "rx",
+    "ry",
+    "rz",
+    "cx",
+    "cz",
+    "swap"
+  ],
+  "circuit_a": "circuit_a.qasm",
+  "circuit_b": "circuit_b.qasm",
+  "instance_id": "struct_pair_18_rz_2pi_exact_nonequiv",
+  "parameter_schema": {},
+  "qubit_count": 2,
+  "resource_limits": {
+    "tier": "structural_pair_test"
+  },
+  "semantic_mode": "exact_unitary",
+  "description": "Structurally similar: Rz(2*pi) adds -1 global phase (NON_EQUIVALENT in exact mode)"
+}

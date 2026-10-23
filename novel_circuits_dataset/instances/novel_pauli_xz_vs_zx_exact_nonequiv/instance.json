@@ -1,0 +1,31 @@
+{
+  "allowed_operations": [
+    "h",
+    "x",
+    "y",
+    "z",
+    "i",
+    "s",
+    "sdg",
+    "t",
+    "tdg",
+    "rx",
+    "ry",
+    "rz",
+    "cx",
+    "cz",
+    "swap",
+    "ccx",
+    "cswap"
+  ],
+  "circuit_a": "circuit_a.qasm",
+  "circuit_b": "circuit_b.qasm",
+  "instance_id": "novel_pauli_xz_vs_zx_exact_nonequiv",
+  "parameter_schema": {},
+  "qubit_count": 1,
+  "resource_limits": {
+    "tier": "novel_circuit_test"
+  },
+  "semantic_mode": "exact_unitary",
+  "description": "Pauli anti-commutation XZ != ZX in exact_unitary mode"
+}

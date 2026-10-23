@@ -1,0 +1,129 @@
+{
+  "total": 12,
+  "passed": 12,
+  "failed": 0,
+  "accuracy": 1.0,
+  "elapsed_seconds": 6.76,
+  "tests": [
+    {
+      "id": "novel_cnot_direction_reversal_equiv",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 450.33,
+      "description": "CNOT Direction Reversal: H(0) H(1) CX(1,0) H(0) H(1) == CX(0,1)",
+      "method": "N/A"
+    },
+    {
+      "id": "novel_swap_cnot_symmetry_equiv",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 1131.41,
+      "description": "SWAP symmetry: CX(0,1) CX(1,0) CX(0,1) == CX(1,0) CX(0,1) CX(1,0)",
+      "method": "N/A"
+    },
+    {
+      "id": "novel_bell_state_unitary_mismatch_nonequiv",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 746.67,
+      "description": "State-prep trap: Bell generators identical on |00> but differ on |01> (correctly NON_EQUIVALENT)",
+      "method": "N/A"
+    },
+    {
+      "id": "novel_ghz_unitary_mismatch_nonequiv",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 494.75,
+      "description": "State-prep trap: 3-qubit GHZ prep circuits differ on general inputs (correctly NON_EQUIVALENT)",
+      "method": "N/A"
+    },
+    {
+      "id": "novel_ccz_h_toffoli_h_equiv",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 596.39,
+      "description": "CCZ gate: control symmetry CCX(0,1,2) == CCX(1,0,2)",
+      "method": "N/A"
+    },
+    {
+      "id": "novel_half_adder_ordering_bug_nonequiv",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 492.2,
+      "description": "Quantum Half-Adder: detects carry-sum gate order dependency bug",
+      "method": "N/A"
+    },
+    {
+      "id": "novel_teleportation_alice_order_nonequiv",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 400.37,
+      "description": "Teleportation kernel: CX then H vs H then CX are non-equivalent",
+      "method": "N/A"
+    },
+    {
+      "id": "novel_grover_diffusion_cz_decomp_equiv",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 382.19,
+      "description": "2-qubit Grover Diffusion Operator: direct CZ vs H-CX-H decomposition",
+      "method": "N/A"
+    },
+    {
+      "id": "novel_pauli_xz_vs_zx_exact_nonequiv",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 702.09,
+      "description": "Pauli anti-commutation XZ != ZX in exact_unitary mode",
+      "method": "N/A"
+    },
+    {
+      "id": "novel_pauli_xz_vs_zx_phase_equiv",
+      "mode": "global_phase_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 718.63,
+      "description": "Pauli anti-commutation XZ == ZX in global_phase_unitary mode (phase -1)",
+      "method": "N/A"
+    },
+    {
+      "id": "novel_swap_from_three_cnot_equiv",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 353.12,
+      "description": "3-CNOT alternating chain is identically a SWAP gate",
+      "method": "N/A"
+    },
+    {
+      "id": "novel_swap_two_cnot_bug_nonequiv",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 290.38,
+      "description": "Incomplete SWAP network (2 CNOTs instead of 3) is NON_EQUIVALENT",
+      "method": "N/A"
+    }
+  ]
+}

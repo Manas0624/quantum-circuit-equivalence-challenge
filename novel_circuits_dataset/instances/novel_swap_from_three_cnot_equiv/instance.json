@@ -1,0 +1,31 @@
+{
+  "allowed_operations": [
+    "h",
+    "x",
+    "y",
+    "z",
+    "i",
+    "s",
+    "sdg",
+    "t",
+    "tdg",
+    "rx",
+    "ry",
+    "rz",
+    "cx",
+    "cz",
+    "swap",
+    "ccx",
+    "cswap"
+  ],
+  "circuit_a": "circuit_a.qasm",
+  "circuit_b": "circuit_b.qasm",
+  "instance_id": "novel_swap_from_three_cnot_equiv",
+  "parameter_schema": {},
+  "qubit_count": 2,
+  "resource_limits": {
+    "tier": "novel_circuit_test"
+  },
+  "semantic_mode": "exact_unitary",
+  "description": "3-CNOT alternating chain is identically a SWAP gate"
+}

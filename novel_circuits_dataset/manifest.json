@@ -1,0 +1,18 @@
+{
+  "dataset_id": "novel_circuits_v1",
+  "public_answer_key": "answers.json",
+  "instances": [
+    "novel_cnot_direction_reversal_equiv",
+    "novel_swap_cnot_symmetry_equiv",
+    "novel_bell_state_unitary_mismatch_nonequiv",
+    "novel_ghz_unitary_mismatch_nonequiv",
+    "novel_ccz_h_toffoli_h_equiv",
+    "novel_half_adder_ordering_bug_nonequiv",
+    "novel_teleportation_alice_order_nonequiv",
+    "novel_grover_diffusion_cz_decomp_equiv",
+    "novel_pauli_xz_vs_zx_exact_nonequiv",
+    "novel_pauli_xz_vs_zx_phase_equiv",
+    "novel_swap_from_three_cnot_equiv",
+    "novel_swap_two_cnot_bug_nonequiv"
+  ]
+}

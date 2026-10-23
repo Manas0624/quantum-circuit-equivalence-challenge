@@ -1,0 +1,249 @@
+{
+  "dataset": "extended_gates_v1",
+  "instances": [
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_sx_square_is_x",
+      "runtime_seconds": 0.5096013000002131,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_sx_sxdg_cancel",
+      "runtime_seconds": 0.40839039999991655,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_sx_vs_x_nonequiv",
+      "runtime_seconds": 0.9389110000338405,
+      "status": "CORRECT",
+      "truth": "NON_EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_p_pi_is_z",
+      "runtime_seconds": 0.3787863000179641,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_p_half_pi_is_s",
+      "runtime_seconds": 0.35162159998435527,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_p_quarter_pi_is_t",
+      "runtime_seconds": 0.3206202000146732,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_u1_is_p",
+      "runtime_seconds": 0.5674701000098139,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_p_diff_angles_nonequiv",
+      "runtime_seconds": 0.4460275999736041,
+      "status": "CORRECT",
+      "truth": "NON_EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_u3_hadamard",
+      "runtime_seconds": 0.3957228999934159,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_u3_pauli_x",
+      "runtime_seconds": 0.43960390001302585,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_u2_hadamard",
+      "runtime_seconds": 0.9112886000075378,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_u3_mismatched_params",
+      "runtime_seconds": 0.5317865000106394,
+      "status": "CORRECT",
+      "truth": "NON_EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_cy_involution",
+      "runtime_seconds": 0.4624473999720067,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_ch_involution",
+      "runtime_seconds": 0.7426253000157885,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_cy_from_cx_s",
+      "runtime_seconds": 1.1306484999950044,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_cp_pi_is_cz",
+      "runtime_seconds": 0.36087299999780953,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_ch_vs_cx_nonequiv",
+      "runtime_seconds": 0.360484600008931,
+      "status": "CORRECT",
+      "truth": "NON_EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_crz_4pi_identity",
+      "runtime_seconds": 0.3427398999920115,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_crx_cancel",
+      "runtime_seconds": 0.40400290000252426,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_ccx_involution",
+      "runtime_seconds": 0.39534980000462383,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_cswap_involution",
+      "runtime_seconds": 0.37422469997545704,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_toffoli_clifford_t_equiv",
+      "runtime_seconds": 0.36484589998144656,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_toffoli_corrupted_nonequiv",
+      "runtime_seconds": 0.9791721999645233,
+      "status": "CORRECT",
+      "truth": "NON_EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_fredkin_cnot_toffoli_equiv",
+      "runtime_seconds": 0.606339999998454,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_rz_pi_vs_z_exact",
+      "runtime_seconds": 0.416670200007502,
+      "status": "CORRECT",
+      "truth": "NON_EQUIVALENT"
+    },
+    {
+      "correct": true,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "ext_rz_pi_vs_z_phase",
+      "runtime_seconds": 0.38365380000323057,
+      "status": "CORRECT",
+      "truth": "EQUIVALENT"
+    }
+  ],
+  "report_type": "public_development",
+  "summary": {
+    "accuracy": 1.0,
+    "correct": 26,
+    "instance_count": 26,
+    "invalid_outputs": 0,
+    "scoring_available": true,
+    "total_runtime_seconds": 13.523908599978313,
+    "valid_outputs": 26
+  }
+}

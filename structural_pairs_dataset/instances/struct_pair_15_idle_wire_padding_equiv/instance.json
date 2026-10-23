@@ -1,0 +1,29 @@
+{
+  "allowed_operations": [
+    "h",
+    "x",
+    "y",
+    "z",
+    "i",
+    "s",
+    "sdg",
+    "t",
+    "tdg",
+    "rx",
+    "ry",
+    "rz",
+    "cx",
+    "cz",
+    "swap"
+  ],
+  "circuit_a": "circuit_a.qasm",
+  "circuit_b": "circuit_b.qasm",
+  "instance_id": "struct_pair_15_idle_wire_padding_equiv",
+  "parameter_schema": {},
+  "qubit_count": 3,
+  "resource_limits": {
+    "tier": "structural_pair_test"
+  },
+  "semantic_mode": "exact_unitary",
+  "description": "Structurally similar: Explicit identity gate on idle wire q[2]"
+}

@@ -1,0 +1,209 @@
+{
+  "total": 20,
+  "passed": 20,
+  "failed": 0,
+  "accuracy": 1.0,
+  "elapsed_seconds": 9.941,
+  "tests": [
+    {
+      "id": "struct_pair_01_zz_cancel_equiv",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 391.58,
+      "description": "Structurally similar: Circuit A has redundant z q[1]; z q[1]; (Z\u00b7Z = I)",
+      "method": "N/A"
+    },
+    {
+      "id": "struct_pair_02_single_z_bug_nonequiv",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 612.76,
+      "description": "Structurally similar bug: Circuit A has single z q[1] instead of pair",
+      "method": "N/A"
+    },
+    {
+      "id": "struct_pair_03_s_sdg_cancel_equiv",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 628.62,
+      "description": "Structurally similar: Circuit A has s q[1]; sdg q[1]; (S\u00b7Sdg = I)",
+      "method": "N/A"
+    },
+    {
+      "id": "struct_pair_04_s_s_omitted_dagger_nonequiv",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 486.09,
+      "description": "Structurally similar bug: s q[1]; s q[1] equals Z, not I",
+      "method": "N/A"
+    },
+    {
+      "id": "struct_pair_05_disjoint_commute_equiv",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 351.54,
+      "description": "Structurally similar: Independent single-qubit gates reordered",
+      "method": "N/A"
+    },
+    {
+      "id": "struct_pair_06_same_wire_reorder_nonequiv",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 448.71,
+      "description": "Structurally similar bug: H\u00b7Z != Z\u00b7H on same qubit",
+      "method": "N/A"
+    },
+    {
+      "id": "struct_pair_07_cnot_control_z_commute_equiv",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 450.3,
+      "description": "Structurally similar: Z commutes with the control qubit of CNOT",
+      "method": "N/A"
+    },
+    {
+      "id": "struct_pair_08_cnot_target_z_noncommute_nonequiv",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 371.58,
+      "description": "Structurally similar bug: Z does NOT commute with the target qubit of CNOT",
+      "method": "N/A"
+    },
+    {
+      "id": "struct_pair_09_cnot_target_x_commute_equiv",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 406.33,
+      "description": "Structurally similar: X commutes with the target qubit of CNOT",
+      "method": "N/A"
+    },
+    {
+      "id": "struct_pair_10_cnot_control_x_noncommute_nonequiv",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 906.2,
+      "description": "Structurally similar bug: X does NOT commute with the control qubit of CNOT",
+      "method": "N/A"
+    },
+    {
+      "id": "struct_pair_11_cz_symmetric_equiv",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 540.59,
+      "description": "Structurally similar: cz q[0], q[1] == cz q[1], q[0]",
+      "method": "N/A"
+    },
+    {
+      "id": "struct_pair_12_cx_asymmetric_nonequiv",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 381.75,
+      "description": "Structurally similar bug: cx q[0], q[1] != cx q[1], q[0]",
+      "method": "N/A"
+    },
+    {
+      "id": "struct_pair_13_rx_inv_cancel_equiv",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 414.14,
+      "description": "Structurally similar: rx(pi/3) and rx(-pi/3) cancel to identity",
+      "method": "N/A"
+    },
+    {
+      "id": "struct_pair_14_rx_sign_error_nonequiv",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 441.07,
+      "description": "Structurally similar bug: missing negative sign in rotation angle",
+      "method": "N/A"
+    },
+    {
+      "id": "struct_pair_15_idle_wire_padding_equiv",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 512.12,
+      "description": "Structurally similar: Explicit identity gate on idle wire q[2]",
+      "method": "N/A"
+    },
+    {
+      "id": "struct_pair_16_target_wire_typo_nonequiv",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 434.52,
+      "description": "Structurally similar bug: CNOT connects to wire 2 instead of wire 1",
+      "method": "N/A"
+    },
+    {
+      "id": "struct_pair_17_rz_2pi_phase_equiv",
+      "mode": "global_phase_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 369.7,
+      "description": "Structurally similar: Rz(2*pi) adds -1 global phase (EQUIVALENT in phase mode)",
+      "method": "N/A"
+    },
+    {
+      "id": "struct_pair_18_rz_2pi_exact_nonequiv",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 874.88,
+      "description": "Structurally similar: Rz(2*pi) adds -1 global phase (NON_EQUIVALENT in exact mode)",
+      "method": "N/A"
+    },
+    {
+      "id": "struct_pair_19_hadamard_conjugation_equiv",
+      "mode": "exact_unitary",
+      "expected": "EQUIVALENT",
+      "actual": "EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 524.65,
+      "description": "Structurally similar: H\u00b7X\u00b7H == Z identity substitution",
+      "method": "N/A"
+    },
+    {
+      "id": "struct_pair_20_hadamard_conjugation_bug_nonequiv",
+      "mode": "exact_unitary",
+      "expected": "NON_EQUIVALENT",
+      "actual": "NON_EQUIVALENT",
+      "passed": true,
+      "elapsed_ms": 391.69,
+      "description": "Structurally similar bug: H\u00b7X\u00b7H is Z, not X",
+      "method": "N/A"
+    }
+  ]
+}

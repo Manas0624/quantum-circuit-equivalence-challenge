@@ -1,0 +1,26 @@
+{
+  "dataset_id": "structural_pairs_v1",
+  "public_answer_key": "answers.json",
+  "instances": [
+    "struct_pair_01_zz_cancel_equiv",
+    "struct_pair_02_single_z_bug_nonequiv",
+    "struct_pair_03_s_sdg_cancel_equiv",
+    "struct_pair_04_s_s_omitted_dagger_nonequiv",
+    "struct_pair_05_disjoint_commute_equiv",
+    "struct_pair_06_same_wire_reorder_nonequiv",
+    "struct_pair_07_cnot_control_z_commute_equiv",
+    "struct_pair_08_cnot_target_z_noncommute_nonequiv",
+    "struct_pair_09_cnot_target_x_commute_equiv",
+    "struct_pair_10_cnot_control_x_noncommute_nonequiv",
+    "struct_pair_11_cz_symmetric_equiv",
+    "struct_pair_12_cx_asymmetric_nonequiv",
+    "struct_pair_13_rx_inv_cancel_equiv",
+    "struct_pair_14_rx_sign_error_nonequiv",
+    "struct_pair_15_idle_wire_padding_equiv",
+    "struct_pair_16_target_wire_typo_nonequiv",
+    "struct_pair_17_rz_2pi_phase_equiv",
+    "struct_pair_18_rz_2pi_exact_nonequiv",
+    "struct_pair_19_hadamard_conjugation_equiv",
+    "struct_pair_20_hadamard_conjugation_bug_nonequiv"
+  ]
+}

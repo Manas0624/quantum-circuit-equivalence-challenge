@@ -1,0 +1,124 @@
+{
+  "dataset": "official_validation_v1",
+  "instances": [
+    {
+      "correct": null,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "val_00000",
+      "runtime_seconds": 2.612786600016989,
+      "status": "VALID_UNSCORED",
+      "truth": null
+    },
+    {
+      "correct": null,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "val_00001",
+      "runtime_seconds": 1.389719300030265,
+      "status": "VALID_UNSCORED",
+      "truth": null
+    },
+    {
+      "correct": null,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "val_00002",
+      "runtime_seconds": 0.4393112999969162,
+      "status": "VALID_UNSCORED",
+      "truth": null
+    },
+    {
+      "correct": null,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "val_00003",
+      "runtime_seconds": 0.3780646999948658,
+      "status": "VALID_UNSCORED",
+      "truth": null
+    },
+    {
+      "correct": null,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "val_00004",
+      "runtime_seconds": 0.7562346000340767,
+      "status": "VALID_UNSCORED",
+      "truth": null
+    },
+    {
+      "correct": null,
+      "decision": "EQUIVALENT",
+      "errors": [],
+      "instance_id": "val_00005",
+      "runtime_seconds": 0.6417374999728054,
+      "status": "VALID_UNSCORED",
+      "truth": null
+    },
+    {
+      "correct": null,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "val_00006",
+      "runtime_seconds": 0.6990957999951206,
+      "status": "VALID_UNSCORED",
+      "truth": null
+    },
+    {
+      "correct": null,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "val_00007",
+      "runtime_seconds": 1.3462347000022419,
+      "status": "VALID_UNSCORED",
+      "truth": null
+    },
+    {
+      "correct": null,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "val_00008",
+      "runtime_seconds": 0.7276240000501275,
+      "status": "VALID_UNSCORED",
+      "truth": null
+    },
+    {
+      "correct": null,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "val_00009",
+      "runtime_seconds": 0.6853458000114188,
+      "status": "VALID_UNSCORED",
+      "truth": null
+    },
+    {
+      "correct": null,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "val_00010",
+      "runtime_seconds": 0.5751490999828093,
+      "status": "VALID_UNSCORED",
+      "truth": null
+    },
+    {
+      "correct": null,
+      "decision": "NON_EQUIVALENT",
+      "errors": [],
+      "instance_id": "val_00011",
+      "runtime_seconds": 0.7096621000091545,
+      "status": "VALID_UNSCORED",
+      "truth": null
+    }
+  ],
+  "report_type": "public_development",
+  "summary": {
+    "accuracy": null,
+    "correct": 0,
+    "instance_count": 12,
+    "invalid_outputs": 0,
+    "message": "Local scoring is unavailable because this dataset does not include a public answer key.",
+    "scoring_available": false,
+    "total_runtime_seconds": 10.96096550009679,
+    "valid_outputs": 12
+  }
+}

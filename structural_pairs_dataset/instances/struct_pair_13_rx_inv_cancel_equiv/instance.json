@@ -1,0 +1,29 @@
+{
+  "allowed_operations": [
+    "h",
+    "x",
+    "y",
+    "z",
+    "i",
+    "s",
+    "sdg",
+    "t",
+    "tdg",
+    "rx",
+    "ry",
+    "rz",
+    "cx",
+    "cz",
+    "swap"
+  ],
+  "circuit_a": "circuit_a.qasm",
+  "circuit_b": "circuit_b.qasm",
+  "instance_id": "struct_pair_13_rx_inv_cancel_equiv",
+  "parameter_schema": {},
+  "qubit_count": 2,
+  "resource_limits": {
+    "tier": "structural_pair_test"
+  },
+  "semantic_mode": "exact_unitary",
+  "description": "Structurally similar: rx(pi/3) and rx(-pi/3) cancel to identity"
+}
